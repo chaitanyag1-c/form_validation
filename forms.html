@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+    <style>
+    form {text-align: center;}
+    </style>
+</head>
+<body>
+    <h2>This is a Form </h2>
+    
+    <form action="backend.php">
+        <div>
+           Name: <input type="text"  name="Myname" autocomplete="on">
+        </div>
+        <div>
+           Date Of Birth: <input type="date" name="DOB">
+        </div>
+        <div>
+            Gender: Male: <input type="radio" name="gender"> Female: <input type="radio" name="gender">
+        </div>
+        
+        <div>
+            Are Your 18+: <input type="checkbox" name="conformation" checked>
+        </div>
+        <div>
+            Are You Ok: <input type="checkbox" name="Ok">
+        </div>
+        <div>
+            <label for="car">Car</label>
+            <select name="Cars" id="car">
+            <option value="Brio">Brio</option>
+            <option value="indica" >Indica</option>
+            <option value="Etios">Etios</option>
+            <option value="Alto">Alto</option>
+            </select>
+        </div>
+        <div>
+           Email: <input type="email" name="email">
+        </div>
+        <div>
+            password: <input type="password" name="password">
+        </div>
+   <br>
+        <div>
+           Write about yourself:<br> <textarea name="textarea" rows="20" cols="50">
+
+           </textarea> 
+        </div>
+   
+            <input type="submit" value="Submit Now">
+    
+            <input type="reset" value="Reset">
+        
+    </form>
+</body>
+</html>
